@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="opopnomi"
+version="1.0.0"
+displayName="Op Op no Mi"
+description='''
+Addon buah iblis. Buah pertama: Gomu Gomu no Mi (manusia karet) dengan 3 skill.
+'''
+
+[[dependencies.opopnomi]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.opopnomi]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
